@@ -5,12 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { DayOneComponent } from './day-one/day-one.component';
 import { DayTwoComponent } from './day-two/day-two.component';
+import { DisplayResultsComponent } from './display-results/display-results.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DayOneComponent,
-    DayTwoComponent
+    DayTwoComponent,
+    DisplayResultsComponent
   ],
   imports: [
     BrowserModule,
