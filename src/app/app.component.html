@@ -1,0 +1,6 @@
+<ng-container *ngFor="let item of [].constructor(25); let i = index">
+    <h1>DAY {{i + 1}}</h1>
+    <app-day-one *ngIf="i === 0"></app-day-one>
+    <app-day-two *ngIf="i === 1"></app-day-two>
+    <br>
+<ng-container>
