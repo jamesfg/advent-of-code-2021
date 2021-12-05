@@ -53,8 +53,6 @@ export class DayTwoComponent implements OnInit, OnDestroy {
       }
     });
     return forwardDistance * depthDistance; 
-
-    //2137154296
   }
 
   ngOnDestroy() {
